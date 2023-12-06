@@ -152,9 +152,11 @@ function EmployeeProfile() {
                                     <i className="fa-thin fa-pen-to-square fa float-end"></i>
                                 </div>
                                 <div className="card-body d-flex flex-wrap ">
+                                  
                                     <div className='col-sm-1'>
                                         <img src={profile} alt='maahipic' className='rounded-circle' width={120} />
                                     </div>
+                                   
                                     <div className='col-sm-5'>
                                         <div className='left-side'>
                                             <h3 className='' >{item.profilename}</h3>
@@ -162,13 +164,19 @@ function EmployeeProfile() {
                                             <p>{item.profation2}</p>
                                             <h5 >emp id:{item.empid}</h5>
                                             <p>date of join: {item.join}</p>
+                                      <div>
+                                      <button className='btn btn-danger'>send message</button>
+
                                         </div>
-                                        <button className='btn btn-danger'>send message</button>
+                                        </div>
                                     </div>
 
-                                    <div className="vr" style={{ all: "initial", border: "1px dashed grey", marginRight: "20px" }}></div>
 
-                                    <div className='col-sm-2  '>
+                                    <div className='dash ' style={{border:"1px solid",height:'200px',borderStyle: "dashed"}}></div>
+
+                                    {/* <div className="vr" style={{ all: "initial", border: "1px dashed grey", marginRight: "20px" }}></div> */}
+
+                                    <div className='right-side col-sm-2'>
                                         <p >phone</p>
                                         <p >email</p>
                                         <p >birthday</p>
@@ -176,7 +184,8 @@ function EmployeeProfile() {
                                         <p >gender</p>
                                         <p >reports to</p>
                                     </div>
-                                    <div className='col-sm-3 '>
+
+                                    <div className='right-side1 col-sm-3 '>
                                         <p ><span className='text-primary'>{item.emp_ph}</span></p>
                                         <p ><span className='text-primary'>{item.email}</span></p>
                                         <p ><span>{item.birthday}</span></p>
@@ -186,6 +195,7 @@ function EmployeeProfile() {
                                             <img className="image-body rounded-pill " src={profile} alt="profile" width={30} height={30} style={{ marginRight: "5px" }} />
                                             <span className='text-primary'>{item.report}</span></p>
                                     </div>
+
                                 </div>
                             </div>
                         </div>

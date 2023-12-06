@@ -71,9 +71,12 @@ padding: 10px;
   padding: 10px;
 }
 
+.dash{
+  margin-right: 20px;
+}
 
 .col-sm-1{
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 
@@ -83,13 +86,40 @@ padding: 10px;
     flex-direction: column;
   }
 } 
+   @media only screen and (min-width: 576px){
+  .left-side{
+    margin-left: 60px;
+  }
+
+  
+} 
+
+@media only screen and (max-width: 698px){
+
+  .left-side{
+    margin-left: 80px;
+   width: 100% !important;
+
+  }
+
+  .right-side{
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+ 
+.btn{
+  margin-bottom: 20px;
+}
 
 
 
 
 
+  .dash{
+    display: none;
+  }
 
-
-
+} 
 
 
