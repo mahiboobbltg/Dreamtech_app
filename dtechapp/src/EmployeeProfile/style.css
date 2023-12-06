@@ -111,15 +111,18 @@ padding: 10px;
 .btn{
   margin-bottom: 20px;
 }
-
-
-
-
-
   .dash{
     display: none;
   }
 
 } 
 
+@media only screen and (max-width: 478px){
 
+
+  .left-side{
+    margin-left: 0px;
+
+  }
+
+}
