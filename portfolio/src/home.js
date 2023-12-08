@@ -12,7 +12,8 @@ function Homepage() {
 </div>
       
         
-        
+      <div className='card'>
+        this is a meeting</div>  
 
         
         
