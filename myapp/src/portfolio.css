@@ -1,0 +1,98 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster&display=swap');
+
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: rgb(3, 3, 25);
+}
+
+.cointainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    /* border: 2px solid; */
+    /* background-color: rgba(0, 0, 0, 0.8) ; */
+    text-align: center;
+    padding: 20px;
+    /* text-shadow: 10px 10px 10px white; */
+    margin-top: 10px;
+    /* border-radius: 50px; */
+    /* position: fixed; */
+    /* left: 125px; */
+}
+
+.logo{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 50px;
+    color:white;
+}
+
+.nav-items{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+
+
+a {
+width: auto;
+border-radius: 5px ;
+padding: 8px;
+background-color: rgb(60, 40, 79);
+color: white;
+text-decoration: none;
+box-shadow: 5px 1px 20px rgb(19, 18, 18);
+}
+
+a:hover{
+    background-color: rgb(15, 12, 17);
+    color: aliceblue;
+    
+}
+
+
+
+
+
+
+.home-section{
+    height: 500px;
+    /* background-color: rgb(0, 0, 0,0.8); */
+    color: blue;
+    /* border: 3px solid white; */
+    /* border: 5px dotted yellow; */
+}
+/* img{
+    width: 300px;
+} */
+
+
+
+.home-body{
+/* font-family: 'Dancing Script', cursive; */
+font-family: 'Lobster', sans-serif;
+font-size: 50px;
+position: relative;
+left: 100px;
+text-transform: capitalize;
+color: aliceblue;
+}
+
+
+.about-section{
+    height: 400px;
+
+}
+
+
+
+
+
+
+

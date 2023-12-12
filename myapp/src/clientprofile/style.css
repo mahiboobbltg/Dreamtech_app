@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.projectdiv{
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(152, 122, 83);
+    font-weight: 500;
+}

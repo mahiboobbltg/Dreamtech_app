@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+text-align: center;
+color: black;
+}
+
+.login-body{
+    background-color: rgb(151, 151, 199);
+    padding: 30px;
+    /* box-shadow:1px 10px  10px 10px rgb(50, 71, 205, 205)  ; */
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+label{
+    font-size: 28px;
+    font-weight: 20px;
+    text-transform: capitalize;
+
+}
+
+input{
+    padding: 15px;
+    font-size: 15px;
+    width: 200px;
+    margin-bottom: 15px;
+    border:2px;
+    border-radius:30px solid black ;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 3px solid;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    background-color: rgb(89, 42, 165);
+    margin-bottom: 10px;
+    
+}
+
+a{
+    float: right;
+}
+
+
+

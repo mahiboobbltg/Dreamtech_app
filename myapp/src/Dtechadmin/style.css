@@ -1,0 +1,13 @@
+@media only screen and (max-width: 992px){
+    .table{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+.num {
+  font-weight: 600;
+}
+
+
