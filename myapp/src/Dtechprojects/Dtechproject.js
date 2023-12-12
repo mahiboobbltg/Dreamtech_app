@@ -1,7 +1,8 @@
 import { React, useState } from 'react'
 import { Button, Modal } from 'react-bootstrap'
 import profile from './image/profile.jpg'
-
+import Navbarpage from "../emp/Navbarpage"
+import Sidebar from '../responsivenav/humburger';
 
 function Dtechproject() {
 
@@ -20,6 +21,17 @@ function Dtechproject() {
 
 
     return (
+<div className=' container-fluid ps-0 pe-0'>
+
+<Navbarpage />
+
+        <div className=' d-flex '>
+         
+            <Sidebar />
+
+
+
+
 
 
         <div className='container-fluid bg-light'>
@@ -396,6 +408,10 @@ function Dtechproject() {
                 </div>
             </div>
 
+
+        </div>
+
+        </div>
 
         </div>
 

@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 
 
 
-function Dtecglogin() {
+function Dtechlogin() {
     return (
         <Container fluid className='bg-light d-flex  justify-content-center align-items-center '>
             <Row >
@@ -55,4 +55,4 @@ function Dtecglogin() {
     )
 }
 
-export default Dtecglogin
+export default Dtechlogin

@@ -17,11 +17,15 @@ function Navbarpage() {
 
   };
 
+
+
+
+
   return (
     <div>
 
 
-      <Navbar expand="lg" className="response">
+      <Navbar expand="lg" className="response mt-0" fixed='top' >
 
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
